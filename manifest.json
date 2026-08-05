@@ -1,0 +1,9 @@
+{
+  "type": "plugin",
+  "runner": "node",
+  "owner": "mitro",
+  "name": "mitro-ai-web",
+  "revision": 4,
+  "displayName": "Mitro AI-Web — Full Internet & NSFW Search",
+  "description": "Full-internet research for LM Studio. Modes: sfw | auto | auto_unsafe | nsfw. Multi-engine search, images, optional site scraping, optional Chrome DevTools, OSINT."
+}

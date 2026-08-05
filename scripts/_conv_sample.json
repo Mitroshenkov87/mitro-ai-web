@@ -1,0 +1,13 @@
+{
+  "keys": [
+    "versions",
+    "currentlySelected"
+  ],
+  "v0keys": [
+    "type",
+    "role",
+    "content",
+    "preprocessed"
+  ],
+  "v0sample": "{\"type\":\"singleStep\",\"role\":\"user\",\"content\":[{\"type\":\"text\",\"text\":\"Найди xxx творчество Евгении Анопкиной, еще известной как Zhenya Belaya, Maraquia, Maraquia Belaya \"}],\"preprocessed\":{\"role\":\"user\",\"content\":[{\"type\":\"text\",\"text\":\"<mitro_ai_shell mode=\\\"full\\\">\\nFull local terminal. You may manage this PC with shell tools like a sysadmin.\\n<mitro_ai_shell_admin>\\nYou are a confident local system administrator using the terminal (AI ops).\\n\\nPrinciples:\\n1. Call env_info first when paths/OS unknown. Prefer real Desktop/Documents/OneDrive paths it returns.\\n2. Prefer exec for one-shots; session_* only for multi-step state (venv, REPL, long install). Always session_stop.\\n3. Investigate before changing: read status → explain briefly → act. Prefer reversible steps.\\n4. Windows default shell is PowerShell. Use PowerShell idioms (Get-*, Set-*, pipelines), not bash unless user is on bash/WSL.\\n5. Invalid cwd fails — do not invent paths. Expand env vars carefully.\\n6. After risky changes, verify (service status, process list, free disk, test endpoint).\\n7. Never exfiltrate secrets; redacted output is fine. Do not disable security blindly.\\n\\nTypical Windows admin toolkits (via exec):\\n- System: Get-ComputerInfo, systeminfo, hostname, whoami /all, Get-HotFix\\n- Disk: Get-PSDrive, Get-Volume, Get-ChildItem size, clear temp only when asked\\n- Process/service: Get-Process, Stop-Process, Get-Service, Restart-Service, Start-Service\\n- Network: Get-NetIPAddress, Get-NetTCPConnection, T"
+}

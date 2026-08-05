@@ -1,0 +1,29 @@
+{
+  "name": "lms-plugin-mitro-ai-web",
+  "version": "0.1.3",
+  "displayName": "Mitro AI-Web — Full Internet & NSFW Search",
+  "title": "Mitro AI-Web — Full Internet & NSFW Search",
+  "description": "Full-internet research for LM Studio: multi-engine web & image search (modes sfw | auto | auto_unsafe | nsfw), optional site scraping, optional Chrome DevTools with user permission, crawl, and OSINT.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc && lms dev",
+    "push": "lms push"
+  },
+  "author": "Mitro",
+  "license": "MIT",
+  "dependencies": {
+    "@lmstudio/sdk": "^1.5.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.8",
+    "typescript": "^5.4.5"
+  },
+  "optionalDependencies": {
+    "sharp": "^0.34.4"
+  },
+  "allowScripts": {
+    "sharp@0.34.5": true
+  }
+}
