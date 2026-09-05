@@ -106,4 +106,4 @@ Plus multi-engine search, crawl, Google API key support, OSINT orchestrator, uni
 
 ## License
 
-MIT
+[MIT](LICENSE) — Copyright (c) 2026 Aleksandr Mitroshenkov.
