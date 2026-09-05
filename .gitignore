@@ -4,6 +4,8 @@ dist/
 .DS_Store
 .env
 .env.*
-
+.idea/
+.vscode/
+*.local
 .probe/
 .tmp_*.html
